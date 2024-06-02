@@ -19,5 +19,9 @@ document.write(Dad);  //selecting a variable and then printing it
 
 document.write(3+3);  //performing a math function
 
+function myFunction() {
+    var sentence = "I am learning";
+    sentence += "a lot from this book!";
+    document.getElementById("Concatenate").innerHTML = sentence;
 
 
