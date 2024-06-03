@@ -24,7 +24,7 @@ function modulus_operator() {
     document.getElementById("modulus_operator").innerHTML = "1 plus 2, multiplied by 10, divided in half and then subtracted by 5 equals " + simple_Math;
 }
 
-function unary_Operator() {
+function unary_operator() {
     var simple_Math = 25 % 6;  //unary operator
     document.getElementById("unary_operator").innerHTML = "When you divide 25 by 6 you have a remainder of: " + simple_Math;
 }
@@ -70,7 +70,7 @@ window.alert(Math.random() * 100);  //random number between 1 and 100
   
 function PI() {
     var simple_Math = Math.PI;  // Pi
-    document.getElementById("Math").innerHTML = "PI" + simple_Math;
+    document.getElementById("PI").innerHTML = "PI" + simple_Math;
 }
 
 
