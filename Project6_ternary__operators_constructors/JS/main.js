@@ -25,8 +25,8 @@ var Jack = new Vehicle("Dodge", "Viper", 2020, "Red");
 var Emily = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");
 var Erik = new Vehicle("Ford", "Pinto", 1971, "Mustard");
 function myFunction() {
-    document.getElementById("Keywords_and_Constructors").innterHTML = 
-    "Erik drives a" + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model +
+    document.getElementById("Keywords_and_Constructors").innerHTML = 
+    "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model +
     " manufatured in " + Erik.Vehicle_Year;
 }  
 
