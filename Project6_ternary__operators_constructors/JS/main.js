@@ -1,3 +1,4 @@
+//ternary function
 function Ride_Function() {
     var Height, Can_ride;
     Height = document.getElementById("Height").value;
@@ -5,6 +6,7 @@ function Ride_Function() {
     document.getElementById ("Ride").innerHTML = Can_ride + " to ride.";
 }
 
+//ternary function
 function Vote_Function() {
     var Age, Can_vote;
     Age = document.getElementById("Age").value;
@@ -23,7 +25,7 @@ var Jack = new Vehicle("Dodge", "Viper", 2020, "Red");
 var Emily = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");
 var Erik = new Vehicle("Ford", "Pinto", 1971, "Mustard");
 function myFunction() {
-    document.getElementById("Keywords_and_Constructors").innterHTML = 
+    document.getElementById("New_and_This").innterHTML = 
     "Erik drives a" + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model +
     " manufatured in " + Erik.Vehicle_Year;
 }
