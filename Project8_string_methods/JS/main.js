@@ -21,3 +21,18 @@ function toUpperCase(){
 }
 let text = "Hello World";
 let result = text.toUpperCase();
+
+//search function
+
+
+//numbers method
+function string_Method() {
+    var X =182;
+    document.getElementById("Numbers_to_string").innerHTML=X.toString();
+}
+
+//toprecision method
+function precision_Method() {
+    var X =12938.3012987376112;
+    document.getElementById("Precision").innerHTML = X.toPrecision(10);
+}
