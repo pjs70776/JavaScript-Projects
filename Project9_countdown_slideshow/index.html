@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="CSS/main.css"> 
+
+</head>
+
+<body>
+
+<p>How many seconds would you like to set your alarm for?</p>
+<input id="seconds" value="" />
+<button onclick="countdown()">Click here</button>
+<p id="timer"></p>
+
+<!-- SLIDESHOW CONTAINER-->
+<div class="slideshow-container">
+
+    <!--FULL WIDTH IMGS WITH NUMBER AND CAPTION TEXT-->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/img1.jpg" style="width:100%">
+      <div class="text">SKIIINNNERRRR!</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/img2.jpg" style="width:100%">
+      <div class="text">Ah, Superintendent Chalmers. What a lovely suprise!</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/img3.jpg" style="width:100%">
+      <div class="text">Why is it when I heard the words "School" and "Explosion", I immedietly thought of the name "SKINNER"?!</div>
+    </div>
+  
+    <!--NEXT AND PREVIOUS BUTTONS-->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!--THE DOTS/CIRCLES -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+    <script src="JS/main.js"></script>
+</body>
