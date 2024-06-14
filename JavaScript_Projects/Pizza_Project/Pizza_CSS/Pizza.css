@@ -5,7 +5,7 @@
 }
 
 #frmMenu {
-    width: 400px;
+    width: 600px;
     height: 200px;
 }
 
@@ -28,6 +28,12 @@
     float: right;
 }
 
+.center {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
 #showText {
     width: 200px;   
     height: 190px;
@@ -45,6 +51,10 @@
     margin: 10px 0px 0px 100px;
     width: 100px;
     height: 40px;
+}
+
+body {
+    background-color: blue;
 }
 
 h1 {
