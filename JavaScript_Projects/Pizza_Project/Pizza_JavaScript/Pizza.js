@@ -19,8 +19,10 @@ function getReceipt() {
         sizeTotal = 10;
     }else if (selectdSize === "Large Pizza") {
         sizeTotal = 14;
-    }else if (selectdSize === "XXL Pizza") {
+    }else if (selectdSize === "Extra Large Pizza") {
         sizeTotal = 16;
+    }else if (selectdSize === "XXL Pizza") {
+        sizeTotal = 18;
     }
     runningTotal = sizeTotal;
     console.log(selectdSize+" = $"+sizeTotal+".00");
