@@ -2,9 +2,10 @@
 This repository is for my Tech Academy JavaScript projects.
 
 # Projects
+
 1. Pizza Menu
-*Tic Tac Toe Game
-*Calculator
+2. Tic Tac Toe Game
+3. Calculator
 
 # Pizza Menu
 This project is amenu used to order pizza with various selection of toppings.  It then takes the input info and calculates the price for the order.
