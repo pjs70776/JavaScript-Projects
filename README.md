@@ -2,7 +2,7 @@
 This repository is for my Tech Academy JavaScript projects.
 
 # Projects
-*Pizza Menu
+1. Pizza Menu
 *Tic Tac Toe Game
 *Calculator
 
